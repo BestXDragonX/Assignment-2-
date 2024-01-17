@@ -1,0 +1,47 @@
+body{
+  background-color: #565fae;
+  font-family: Helvetica, sans-serif;
+}
+
+.page{
+  margin: 50px auto;
+  width: 60%;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.pagination{
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+ 
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-details {
+  margin-left: 10px;
+}
+
+.joined-info {
+  margin-left: auto; /* This will push it to the rightmost side */
+}
+
+/* CSS for Name */
+.user-item h3 {
+  color: #0ab6f0; /* This is a light blue color code */
+}
+
+/* CSS for light grey color for email and joined date */
+.user-item p {
+  color: #918c8c; /* Light grey color code */
+}
